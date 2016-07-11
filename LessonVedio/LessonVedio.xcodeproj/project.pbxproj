@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A676FB7DF37122296E464ADD /* libPods-LessonVedio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C150015D40E86768112D190 /* libPods-LessonVedio.a */; };
+		D6B6F86D1D2DEB7200D4883C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F86C1D2DEB7200D4883C /* main.m */; };
+		D6B6F8701D2DEB7200D4883C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F86F1D2DEB7200D4883C /* AppDelegate.m */; };
+		D6B6F8731D2DEB7200D4883C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F8721D2DEB7200D4883C /* ViewController.m */; };
+		D6B6F8761D2DEB7200D4883C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B6F8741D2DEB7200D4883C /* Main.storyboard */; };
+		D6B6F8781D2DEB7200D4883C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B6F8771D2DEB7200D4883C /* Assets.xcassets */; };
+		D6B6F87B1D2DEB7200D4883C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B6F8791D2DEB7200D4883C /* LaunchScreen.storyboard */; };
+		D6B6F8851D2DEDCF00D4883C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F8841D2DEDCF00D4883C /* RootViewController.m */; };
+		D6B6F88D1D2DF3BC00D4883C /* VedioTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F88C1D2DF3BC00D4883C /* VedioTabBar.m */; };
+		D6B6F8901D2DF65000D4883C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F88F1D2DF65000D4883C /* BaseViewController.m */; };
+		D6B6F89A1D2E09EF00D4883C /* AnchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F8981D2E09EF00D4883C /* AnchTableViewCell.m */; };
+		D6B6F89B1D2E09EF00D4883C /* AnchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6B6F8991D2E09EF00D4883C /* AnchTableViewCell.xib */; };
+		D6B6F8AE1D2E1A2000D4883C /* first_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = D6B6F8A81D2E1A2000D4883C /* first_normal.png */; };
+		D6B6F8AF1D2E1A2000D4883C /* first_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = D6B6F8A91D2E1A2000D4883C /* first_selected.png */; };
+		D6B6F8B01D2E1A2000D4883C /* second_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = D6B6F8AA1D2E1A2000D4883C /* second_normal.png */; };
+		D6B6F8B11D2E1A2000D4883C /* second_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6B6F8AB1D2E1A2000D4883C /* second_normal@2x.png */; };
+		D6B6F8B21D2E1A2000D4883C /* second_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = D6B6F8AC1D2E1A2000D4883C /* second_selected.png */; };
+		D6B6F8B31D2E1A2000D4883C /* second_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6B6F8AD1D2E1A2000D4883C /* second_selected@2x.png */; };
+		D6B6F8BA1D2E31CA00D4883C /* AuthorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F8B91D2E31CA00D4883C /* AuthorsViewController.m */; };
+		D6B6F8C61D2E37C900D4883C /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F8C31D2E37C900D4883C /* BaseModel.m */; };
+		D6B6F8C71D2E37C900D4883C /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F8C51D2E37C900D4883C /* BaseRequest.m */; };
+		D6B6F8CA1D2E381700D4883C /* NetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F8C91D2E381700D4883C /* NetWorkRequest.m */; };
+		D6B6F8CD1D2E383300D4883C /* AuthorMode.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F8CC1D2E383300D4883C /* AuthorMode.m */; };
+		D6B6F8D01D2E410400D4883C /* AutorhtRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6F8CF1D2E410400D4883C /* AutorhtRequest.m */; };
+		D6E1CE661D2F39900016CE31 /* VedioCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E1CE641D2F39900016CE31 /* VedioCollectionViewCell.m */; };
+		D6E1CE671D2F39900016CE31 /* VedioCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E1CE651D2F39900016CE31 /* VedioCollectionViewCell.xib */; };
+		D6E1CE6A1D2F3B720016CE31 /* VediosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E1CE691D2F3B720016CE31 /* VediosViewController.m */; };
+		D6E1CE6D1D2F56680016CE31 /* VedioRequset.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E1CE6C1D2F56680016CE31 /* VedioRequset.m */; };
+		D6E1CE731D2F85210016CE31 /* VedioModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E1CE721D2F85210016CE31 /* VedioModel.m */; };
+		D6E1CE761D2F9D4C0016CE31 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E1CE751D2F9D4C0016CE31 /* PlayerView.m */; };
+		D6E1CE781D2F9E230016CE31 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E1CE771D2F9E230016CE31 /* AVFoundation.framework */; };
+		D6E1CE7B1D2FD5AB0016CE31 /* PlayesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E1CE7A1D2FD5AB0016CE31 /* PlayesRequest.m */; };
+		D6E1CE7E1D2FDF540016CE31 /* PlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E1CE7D1D2FDF540016CE31 /* PlayerModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C150015D40E86768112D190 /* libPods-LessonVedio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LessonVedio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1214747DF44FC0DB564A50 /* Pods-LessonVedio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LessonVedio.release.xcconfig"; path = "Pods/Target Support Files/Pods-LessonVedio/Pods-LessonVedio.release.xcconfig"; sourceTree = "<group>"; };
+		D6B6F8681D2DEB7200D4883C /* LessonVedio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonVedio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B6F86C1D2DEB7200D4883C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6B6F86E1D2DEB7200D4883C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6B6F86F1D2DEB7200D4883C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6B6F8711D2DEB7200D4883C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6B6F8721D2DEB7200D4883C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6B6F8751D2DEB7200D4883C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6B6F8771D2DEB7200D4883C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6B6F87A1D2DEB7200D4883C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6B6F87C1D2DEB7200D4883C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6B6F8831D2DEDCF00D4883C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D6B6F8841D2DEDCF00D4883C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D6B6F8891D2DEFD400D4883C /* CommonString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonString.h; path = LessonVedio/Controller/CommonString.h; sourceTree = "<group>"; };
+		D6B6F88A1D2DEFF500D4883C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = LessonVedio/Controller/PrefixHeader.pch; sourceTree = "<group>"; };
+		D6B6F88B1D2DF3BC00D4883C /* VedioTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VedioTabBar.h; sourceTree = "<group>"; };
+		D6B6F88C1D2DF3BC00D4883C /* VedioTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VedioTabBar.m; sourceTree = "<group>"; };
+		D6B6F88E1D2DF65000D4883C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D6B6F88F1D2DF65000D4883C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D6B6F8971D2E09EF00D4883C /* AnchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchTableViewCell.h; sourceTree = "<group>"; };
+		D6B6F8981D2E09EF00D4883C /* AnchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchTableViewCell.m; sourceTree = "<group>"; };
+		D6B6F8991D2E09EF00D4883C /* AnchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnchTableViewCell.xib; sourceTree = "<group>"; };
+		D6B6F8A81D2E1A2000D4883C /* first_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first_normal.png; path = LessonVedio/Controller/first_normal.png; sourceTree = "<group>"; };
+		D6B6F8A91D2E1A2000D4883C /* first_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first_selected.png; path = LessonVedio/Controller/first_selected.png; sourceTree = "<group>"; };
+		D6B6F8AA1D2E1A2000D4883C /* second_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second_normal.png; path = LessonVedio/Controller/second_normal.png; sourceTree = "<group>"; };
+		D6B6F8AB1D2E1A2000D4883C /* second_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second_normal@2x.png"; path = "LessonVedio/Controller/second_normal@2x.png"; sourceTree = "<group>"; };
+		D6B6F8AC1D2E1A2000D4883C /* second_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second_selected.png; path = LessonVedio/Controller/second_selected.png; sourceTree = "<group>"; };
+		D6B6F8AD1D2E1A2000D4883C /* second_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second_selected@2x.png"; path = "LessonVedio/Controller/second_selected@2x.png"; sourceTree = "<group>"; };
+		D6B6F8B81D2E31CA00D4883C /* AuthorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorsViewController.h; sourceTree = "<group>"; };
+		D6B6F8B91D2E31CA00D4883C /* AuthorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorsViewController.m; sourceTree = "<group>"; };
+		D6B6F8BB1D2E35CC00D4883C /* RequestUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestUrl.h; sourceTree = "<group>"; };
+		D6B6F8C21D2E37C900D4883C /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		D6B6F8C31D2E37C900D4883C /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		D6B6F8C41D2E37C900D4883C /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		D6B6F8C51D2E37C900D4883C /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		D6B6F8C81D2E381700D4883C /* NetWorkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkRequest.h; sourceTree = "<group>"; };
+		D6B6F8C91D2E381700D4883C /* NetWorkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkRequest.m; sourceTree = "<group>"; };
+		D6B6F8CB1D2E383300D4883C /* AuthorMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorMode.h; sourceTree = "<group>"; };
+		D6B6F8CC1D2E383300D4883C /* AuthorMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorMode.m; sourceTree = "<group>"; };
+		D6B6F8CE1D2E410400D4883C /* AutorhtRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutorhtRequest.h; sourceTree = "<group>"; };
+		D6B6F8CF1D2E410400D4883C /* AutorhtRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutorhtRequest.m; sourceTree = "<group>"; };
+		D6E1CE631D2F39900016CE31 /* VedioCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VedioCollectionViewCell.h; sourceTree = "<group>"; };
+		D6E1CE641D2F39900016CE31 /* VedioCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VedioCollectionViewCell.m; sourceTree = "<group>"; };
+		D6E1CE651D2F39900016CE31 /* VedioCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VedioCollectionViewCell.xib; sourceTree = "<group>"; };
+		D6E1CE681D2F3B720016CE31 /* VediosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VediosViewController.h; sourceTree = "<group>"; };
+		D6E1CE691D2F3B720016CE31 /* VediosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VediosViewController.m; sourceTree = "<group>"; };
+		D6E1CE6B1D2F56680016CE31 /* VedioRequset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VedioRequset.h; sourceTree = "<group>"; };
+		D6E1CE6C1D2F56680016CE31 /* VedioRequset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VedioRequset.m; sourceTree = "<group>"; };
+		D6E1CE711D2F85210016CE31 /* VedioModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VedioModel.h; sourceTree = "<group>"; };
+		D6E1CE721D2F85210016CE31 /* VedioModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VedioModel.m; sourceTree = "<group>"; };
+		D6E1CE741D2F9D4C0016CE31 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		D6E1CE751D2F9D4C0016CE31 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		D6E1CE771D2F9E230016CE31 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D6E1CE791D2FD5AB0016CE31 /* PlayesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayesRequest.h; sourceTree = "<group>"; };
+		D6E1CE7A1D2FD5AB0016CE31 /* PlayesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayesRequest.m; sourceTree = "<group>"; };
+		D6E1CE7C1D2FDF540016CE31 /* PlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerModel.h; sourceTree = "<group>"; };
+		D6E1CE7D1D2FDF540016CE31 /* PlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerModel.m; sourceTree = "<group>"; };
+		DE93DC91010A57271ADF1BE4 /* Pods-LessonVedio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LessonVedio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LessonVedio/Pods-LessonVedio.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6B6F8651D2DEB7200D4883C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E1CE781D2F9E230016CE31 /* AVFoundation.framework in Frameworks */,
+				A676FB7DF37122296E464ADD /* libPods-LessonVedio.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		615A9700504DA528B1BD9121 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE93DC91010A57271ADF1BE4 /* Pods-LessonVedio.debug.xcconfig */,
+				4D1214747DF44FC0DB564A50 /* Pods-LessonVedio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6B6F85F1D2DEB7200D4883C = {
+			isa = PBXGroup;
+			children = (
+				D6B6F8B71D2E316900D4883C /* Commonstring */,
+				D6B6F8B61D2E315900D4883C /* Model */,
+				D6B6F8B51D2E314C00D4883C /* Views */,
+				D6B6F8B41D2E312400D4883C /* Controlleer */,
+				D6B6F8961D2E09CF00D4883C /* Cells */,
+				D6B6F8821D2DEDB900D4883C /* Controller */,
+				D6B6F86A1D2DEB7200D4883C /* LessonVedio */,
+				D6B6F8691D2DEB7200D4883C /* Products */,
+				615A9700504DA528B1BD9121 /* Pods */,
+				F8148003FD382779AF490BD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6B6F8691D2DEB7200D4883C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6F8681D2DEB7200D4883C /* LessonVedio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6B6F86A1D2DEB7200D4883C /* LessonVedio */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6F86E1D2DEB7200D4883C /* AppDelegate.h */,
+				D6B6F86F1D2DEB7200D4883C /* AppDelegate.m */,
+				D6B6F8711D2DEB7200D4883C /* ViewController.h */,
+				D6B6F8721D2DEB7200D4883C /* ViewController.m */,
+				D6B6F8741D2DEB7200D4883C /* Main.storyboard */,
+				D6B6F8771D2DEB7200D4883C /* Assets.xcassets */,
+				D6B6F8791D2DEB7200D4883C /* LaunchScreen.storyboard */,
+				D6B6F87C1D2DEB7200D4883C /* Info.plist */,
+				D6B6F86B1D2DEB7200D4883C /* Supporting Files */,
+			);
+			path = LessonVedio;
+			sourceTree = "<group>";
+		};
+		D6B6F86B1D2DEB7200D4883C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6F86C1D2DEB7200D4883C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6B6F8821D2DEDB900D4883C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6F88B1D2DF3BC00D4883C /* VedioTabBar.h */,
+				D6B6F88C1D2DF3BC00D4883C /* VedioTabBar.m */,
+				D6B6F8831D2DEDCF00D4883C /* RootViewController.h */,
+				D6B6F8841D2DEDCF00D4883C /* RootViewController.m */,
+				D6B6F88E1D2DF65000D4883C /* BaseViewController.h */,
+				D6B6F88F1D2DF65000D4883C /* BaseViewController.m */,
+				D6B6F8B81D2E31CA00D4883C /* AuthorsViewController.h */,
+				D6B6F8B91D2E31CA00D4883C /* AuthorsViewController.m */,
+				D6E1CE681D2F3B720016CE31 /* VediosViewController.h */,
+				D6E1CE691D2F3B720016CE31 /* VediosViewController.m */,
+			);
+			name = Controller;
+			path = LessonVedio/Controller;
+			sourceTree = "<group>";
+		};
+		D6B6F8961D2E09CF00D4883C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6F8971D2E09EF00D4883C /* AnchTableViewCell.h */,
+				D6B6F8981D2E09EF00D4883C /* AnchTableViewCell.m */,
+				D6B6F8991D2E09EF00D4883C /* AnchTableViewCell.xib */,
+				D6E1CE631D2F39900016CE31 /* VedioCollectionViewCell.h */,
+				D6E1CE641D2F39900016CE31 /* VedioCollectionViewCell.m */,
+				D6E1CE651D2F39900016CE31 /* VedioCollectionViewCell.xib */,
+				D6E1CE741D2F9D4C0016CE31 /* PlayerView.h */,
+				D6E1CE751D2F9D4C0016CE31 /* PlayerView.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		D6B6F8B41D2E312400D4883C /* Controlleer */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6F8A81D2E1A2000D4883C /* first_normal.png */,
+				D6B6F8A91D2E1A2000D4883C /* first_selected.png */,
+				D6B6F8AA1D2E1A2000D4883C /* second_normal.png */,
+				D6B6F8AB1D2E1A2000D4883C /* second_normal@2x.png */,
+				D6B6F8AC1D2E1A2000D4883C /* second_selected.png */,
+				D6B6F8AD1D2E1A2000D4883C /* second_selected@2x.png */,
+			);
+			name = Controlleer;
+			sourceTree = "<group>";
+		};
+		D6B6F8B51D2E314C00D4883C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D6B6F8B61D2E315900D4883C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6F8C21D2E37C900D4883C /* BaseModel.h */,
+				D6B6F8C31D2E37C900D4883C /* BaseModel.m */,
+				D6B6F8CB1D2E383300D4883C /* AuthorMode.h */,
+				D6B6F8CC1D2E383300D4883C /* AuthorMode.m */,
+				D6E1CE711D2F85210016CE31 /* VedioModel.h */,
+				D6E1CE721D2F85210016CE31 /* VedioModel.m */,
+				D6E1CE7C1D2FDF540016CE31 /* PlayerModel.h */,
+				D6E1CE7D1D2FDF540016CE31 /* PlayerModel.m */,
+				D6B6F8CE1D2E410400D4883C /* AutorhtRequest.h */,
+				D6B6F8CF1D2E410400D4883C /* AutorhtRequest.m */,
+				D6E1CE6B1D2F56680016CE31 /* VedioRequset.h */,
+				D6E1CE6C1D2F56680016CE31 /* VedioRequset.m */,
+				D6E1CE791D2FD5AB0016CE31 /* PlayesRequest.h */,
+				D6E1CE7A1D2FD5AB0016CE31 /* PlayesRequest.m */,
+				D6B6F8C41D2E37C900D4883C /* BaseRequest.h */,
+				D6B6F8C51D2E37C900D4883C /* BaseRequest.m */,
+				D6B6F8C81D2E381700D4883C /* NetWorkRequest.h */,
+				D6B6F8C91D2E381700D4883C /* NetWorkRequest.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D6B6F8B71D2E316900D4883C /* Commonstring */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6F8BB1D2E35CC00D4883C /* RequestUrl.h */,
+				D6B6F88A1D2DEFF500D4883C /* PrefixHeader.pch */,
+				D6B6F8891D2DEFD400D4883C /* CommonString.h */,
+			);
+			name = Commonstring;
+			sourceTree = "<group>";
+		};
+		F8148003FD382779AF490BD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6E1CE771D2F9E230016CE31 /* AVFoundation.framework */,
+				1C150015D40E86768112D190 /* libPods-LessonVedio.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6B6F8671D2DEB7200D4883C /* LessonVedio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B6F87F1D2DEB7200D4883C /* Build configuration list for PBXNativeTarget "LessonVedio" */;
+			buildPhases = (
+				9992B6C77645CC3AFC5AF190 /* [CP] Check Pods Manifest.lock */,
+				D6B6F8641D2DEB7200D4883C /* Sources */,
+				D6B6F8651D2DEB7200D4883C /* Frameworks */,
+				D6B6F8661D2DEB7200D4883C /* Resources */,
+				E6EF232CB77E718B34D4270E /* [CP] Embed Pods Frameworks */,
+				18E0DBB4A85889E3697E510F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LessonVedio;
+			productName = LessonVedio;
+			productReference = D6B6F8681D2DEB7200D4883C /* LessonVedio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6B6F8601D2DEB7200D4883C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZSH;
+				TargetAttributes = {
+					D6B6F8671D2DEB7200D4883C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BAGEK5GNCE;
+					};
+				};
+			};
+			buildConfigurationList = D6B6F8631D2DEB7200D4883C /* Build configuration list for PBXProject "LessonVedio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6B6F85F1D2DEB7200D4883C;
+			productRefGroup = D6B6F8691D2DEB7200D4883C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6B6F8671D2DEB7200D4883C /* LessonVedio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6B6F8661D2DEB7200D4883C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B6F87B1D2DEB7200D4883C /* LaunchScreen.storyboard in Resources */,
+				D6B6F8B31D2E1A2000D4883C /* second_selected@2x.png in Resources */,
+				D6B6F8AE1D2E1A2000D4883C /* first_normal.png in Resources */,
+				D6B6F8B01D2E1A2000D4883C /* second_normal.png in Resources */,
+				D6B6F8B21D2E1A2000D4883C /* second_selected.png in Resources */,
+				D6B6F8781D2DEB7200D4883C /* Assets.xcassets in Resources */,
+				D6B6F8AF1D2E1A2000D4883C /* first_selected.png in Resources */,
+				D6B6F8B11D2E1A2000D4883C /* second_normal@2x.png in Resources */,
+				D6B6F8761D2DEB7200D4883C /* Main.storyboard in Resources */,
+				D6E1CE671D2F39900016CE31 /* VedioCollectionViewCell.xib in Resources */,
+				D6B6F89B1D2E09EF00D4883C /* AnchTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18E0DBB4A85889E3697E510F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LessonVedio/Pods-LessonVedio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9992B6C77645CC3AFC5AF190 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6EF232CB77E718B34D4270E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LessonVedio/Pods-LessonVedio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6B6F8641D2DEB7200D4883C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B6F8C61D2E37C900D4883C /* BaseModel.m in Sources */,
+				D6B6F8D01D2E410400D4883C /* AutorhtRequest.m in Sources */,
+				D6E1CE7B1D2FD5AB0016CE31 /* PlayesRequest.m in Sources */,
+				D6B6F8731D2DEB7200D4883C /* ViewController.m in Sources */,
+				D6B6F8C71D2E37C900D4883C /* BaseRequest.m in Sources */,
+				D6B6F8901D2DF65000D4883C /* BaseViewController.m in Sources */,
+				D6B6F88D1D2DF3BC00D4883C /* VedioTabBar.m in Sources */,
+				D6B6F8701D2DEB7200D4883C /* AppDelegate.m in Sources */,
+				D6E1CE761D2F9D4C0016CE31 /* PlayerView.m in Sources */,
+				D6B6F8851D2DEDCF00D4883C /* RootViewController.m in Sources */,
+				D6B6F89A1D2E09EF00D4883C /* AnchTableViewCell.m in Sources */,
+				D6E1CE6A1D2F3B720016CE31 /* VediosViewController.m in Sources */,
+				D6E1CE661D2F39900016CE31 /* VedioCollectionViewCell.m in Sources */,
+				D6B6F8CA1D2E381700D4883C /* NetWorkRequest.m in Sources */,
+				D6E1CE731D2F85210016CE31 /* VedioModel.m in Sources */,
+				D6B6F86D1D2DEB7200D4883C /* main.m in Sources */,
+				D6E1CE6D1D2F56680016CE31 /* VedioRequset.m in Sources */,
+				D6B6F8BA1D2E31CA00D4883C /* AuthorsViewController.m in Sources */,
+				D6E1CE7E1D2FDF540016CE31 /* PlayerModel.m in Sources */,
+				D6B6F8CD1D2E383300D4883C /* AuthorMode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6B6F8741D2DEB7200D4883C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B6F8751D2DEB7200D4883C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6B6F8791D2DEB7200D4883C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B6F87A1D2DEB7200D4883C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6B6F87D1D2DEB7200D4883C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6B6F87E1D2DEB7200D4883C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6B6F8801D2DEB7200D4883C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE93DC91010A57271ADF1BE4 /* Pods-LessonVedio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LessonVedio/Controller/PrefixHeader.pch";
+				INFOPLIST_FILE = LessonVedio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangShiJT.LessonVedio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6B6F8811D2DEB7200D4883C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1214747DF44FC0DB564A50 /* Pods-LessonVedio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LessonVedio/Controller/PrefixHeader.pch";
+				INFOPLIST_FILE = LessonVedio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangShiJT.LessonVedio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6B6F8631D2DEB7200D4883C /* Build configuration list for PBXProject "LessonVedio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B6F87D1D2DEB7200D4883C /* Debug */,
+				D6B6F87E1D2DEB7200D4883C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B6F87F1D2DEB7200D4883C /* Build configuration list for PBXNativeTarget "LessonVedio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B6F8801D2DEB7200D4883C /* Debug */,
+				D6B6F8811D2DEB7200D4883C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6B6F8601D2DEB7200D4883C /* Project object */;
+}

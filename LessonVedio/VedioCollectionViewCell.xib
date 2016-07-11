@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="VedioCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="232"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="232"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f1c-IG-sdF">
+                        <rect key="frame" x="0.0" y="0.0" width="352" height="232"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="时长" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Un5-xL-Dg4">
+                        <rect key="frame" x="146" y="8" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="2YH-pX-5VV"/>
+                            <constraint firstAttribute="height" constant="20" id="fq8-6n-lft"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Kh-CM-HP2">
+                        <rect key="frame" x="8" y="194" width="336" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="u4H-0V-CFR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ee-M2-mc8">
+                        <rect key="frame" x="284" y="166" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="ajO-tY-OTJ"/>
+                            <constraint firstAttribute="width" constant="60" id="pSt-qs-THC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fn-xy-Rdh">
+                        <rect key="frame" x="151" y="96" width="50" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="8IG-8A-snL"/>
+                            <constraint firstAttribute="width" constant="50" id="wrp-IF-ebP"/>
+                        </constraints>
+                        <state key="normal" title="播放">
+                            <color key="titleColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="playBtnClicked:" destination="gTV-IL-0wX" eventType="touchUpInside" id="zii-NT-HNb"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="5fn-xy-Rdh" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="4cv-9D-0fP"/>
+                <constraint firstItem="5fn-xy-Rdh" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="7W1-oT-DQM"/>
+                <constraint firstItem="Un5-xL-Dg4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="HXT-rX-kos"/>
+                <constraint firstItem="Un5-xL-Dg4" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Jaa-hz-crl"/>
+                <constraint firstItem="f1c-IG-sdF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Lsn-0Q-uKS"/>
+                <constraint firstAttribute="trailing" secondItem="f1c-IG-sdF" secondAttribute="trailing" id="QPJ-eX-ctc"/>
+                <constraint firstAttribute="trailing" secondItem="0ee-M2-mc8" secondAttribute="trailing" constant="8" id="iCX-kQ-m3r"/>
+                <constraint firstItem="f1c-IG-sdF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="iIH-yW-F4j"/>
+                <constraint firstItem="0Kh-CM-HP2" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="lhP-ZQ-pTw"/>
+                <constraint firstAttribute="bottom" secondItem="0Kh-CM-HP2" secondAttribute="bottom" constant="8" id="pOR-Rx-ylu"/>
+                <constraint firstItem="0Kh-CM-HP2" firstAttribute="top" secondItem="0ee-M2-mc8" secondAttribute="bottom" constant="8" id="qm6-g0-JT5"/>
+                <constraint firstAttribute="trailing" secondItem="0Kh-CM-HP2" secondAttribute="trailing" constant="8" id="s51-LM-mHl"/>
+                <constraint firstAttribute="bottom" secondItem="f1c-IG-sdF" secondAttribute="bottom" id="urr-JU-5QA"/>
+            </constraints>
+            <size key="customSize" width="352" height="232"/>
+            <connections>
+                <outlet property="btn" destination="5fn-xy-Rdh" id="Thl-d8-b0N"/>
+                <outlet property="imageviews" destination="f1c-IG-sdF" id="P9f-8P-asl"/>
+                <outlet property="itmelabel" destination="Un5-xL-Dg4" id="K1V-wL-eKK"/>
+                <outlet property="riqilabel" destination="0ee-M2-mc8" id="nMq-y4-mXH"/>
+                <outlet property="titlelable" destination="0Kh-CM-HP2" id="Z9Q-Iq-MT9"/>
+            </connections>
+            <point key="canvasLocation" x="596" y="331"/>
+        </collectionViewCell>
+    </objects>
+</document>
